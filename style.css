@@ -43,6 +43,57 @@ header{
     padding: 30px 20px;
 }
 
+.about{
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.skills{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.contact-links{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-links a{
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-links a:hover{
+    text-decoration: underline;
+}
+
+.project-tag{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #333333;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
 main{
     max-width: 600px;
     margin: 0 auto;
