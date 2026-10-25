@@ -1,9 +1,9 @@
 const repolinks = {
-    "Veekos " : "https://github.com/LegendPlayz83/Veekos",
-    "Block of Light " : "https://github.com/LegendPlayz83/Block-of-Light",
-    "Stream Forge " : "https://github.com/LegendPlayz83/StreamForge",
-    "ESP-BLJ " : "https://github.com/LegendPlayz83/ESP-BLJ", 
-    "Depth Rush " : "https://github.com/LegendPlayz83/Depth-Rush"
+    "Veekos: " : "https://github.com/LegendPlayz83/Veekos",
+    "Block of Light: " : "https://github.com/LegendPlayz83/Block-of-Light",
+    "StreamForge: " : "https://github.com/LegendPlayz83/StreamForge",
+    "ESP-BLJ: " : "https://github.com/LegendPlayz83/ESP-BLJ",
+    "Depth-Rush: " : "https://github.com/LegendPlayz83/Depth-Rush"
 };
 
 const projects = document.querySelectorAll(".project");

@@ -23,20 +23,24 @@ main{
     border-radius: 8px;
     padding: 15px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .project h2{
     margin-top: 0;
+    text-align: center;
 }
 
 img{
     max-width: 250px;
     height: auto;
+    display: block;
+    margin: 10px auto;
 }
 
 .repo-button{
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 8px 14px;
     background-color: #333333;
     color: #ffffff;
