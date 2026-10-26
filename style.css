@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #1a1a1a;
+    color: #f5f0e6;
     margin: 0;
     padding: 0;
 }
@@ -10,8 +10,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #000000;
+    color: #ff7518;
     padding: 15px 30px;
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 .nav-links a{
-    color: #ffffff;
+    color: #ff7518;
     text-decoration: none;
     font-size: 16px;
 }
@@ -45,10 +45,26 @@ header{
 }
 
 .about{
+    position: relative;
     max-width: 600px;
     margin: 0 auto 30px;
     padding: 0 20px;
     text-align: center;
+}
+
+.pumpkin{
+    position: absolute;
+    top: -20px;
+    width: 80px;
+    height: auto;
+}
+
+.pumpkin-left{
+    left: -100px;
+}
+
+.pumpkin-right{
+    right: -100px;
 }
 
 .skills{
@@ -60,8 +76,8 @@ header{
 }
 
 .tag{
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #ff7518;
+    color: #000000;
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 13px;
@@ -86,9 +102,9 @@ header{
 
 .project-tag{
     display: inline-block;
-    background-color: #ffffff;
-    color: #333333;
-    border: 1px solid #333333;
+    background-color: #1a1a1a;
+    color: #ff7518;
+    border: 1px solid #ff7518;
     padding: 3px 10px;
     border-radius: 12px;
     font-size: 12px;
@@ -102,8 +118,9 @@ main{
 }
 
 .project{
-    background-color: #89cff0;
-    border: 2px solid #333333;
+    background-color: #2e1a47;
+    border: 2px solid #ff7518;
+    color: #f5f0e6;
     border-radius: 8px;
     padding: 15px;
     margin-bottom: 20px;
@@ -126,20 +143,20 @@ img{
     display: inline-block;
     margin-top: 20px;
     padding: 8px 14px;
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #ff7518;
+    color: #000000;
     text-decoration: none;
     border-radius: 6px;
     font-size: 14px;
 }
 
 .repo-button:hover{
-    background-color: #555555;
+    background-color: #ff8c3a;
 }
 
 footer{
     text-align: center;
     padding: 20px;
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #000000;
+    color: #ff7518;
 }
