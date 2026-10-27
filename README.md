@@ -12,3 +12,6 @@ The website is simply deployed on GitHub Pages and can be run using this link: <
 https://legendplayz83.github.io/potato-portfolio/
 
 On the website, the colour theme is violet and orange, with lots of pumpkins, relating to the Halloween theme :D
+
+<h3>Inspiration</h3>
+Since everyone is making portfolios these days, why should I be left behind? :)
